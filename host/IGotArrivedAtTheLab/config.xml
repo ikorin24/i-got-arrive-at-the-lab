@@ -1,0 +1,5 @@
+<Config>
+  <SlackToken>xoxp-xxxx....</SlackToken>
+  <Channel>ChannelName</Channel>
+  <TestChannel>TestChannelName</TestChannel>
+</Config>
