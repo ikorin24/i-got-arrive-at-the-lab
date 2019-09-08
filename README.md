@@ -18,8 +18,6 @@ windowsでのみ動作確認
 
 Device-HostPC 間はシリアル通信でやり取りをします。デバイスのボタンが押されると PC にボタンが押されたメッセージを送信、PC はメッセージを受信すると Slack へ投稿します。
 
-要するに、たいしたことは何もしていません。
-
 ## 処理
 
 Device-HostPC 接続時処理
@@ -42,7 +40,7 @@ Token や Slack チャンネル名などは ```config.xml``` に外部ファイ�
 
 ### 回路図
 
-[略]
+![fig](https://github.com/ikorin24/i-got-arrived-at-the-lab/blob/image/img/fig3.png)
 
 ### マイコンのピンアサイン
 
@@ -54,8 +52,6 @@ Token や Slack チャンネル名などは ```config.xml``` に外部ファイ�
 | LED Red     | Digital 5        | out |
 | Main Switch | Digital 6        | in  |
 | Mode Switch | Digital 7        | in  |
-
-
 
 ## 制作者
 
