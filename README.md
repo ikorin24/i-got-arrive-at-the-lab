@@ -26,25 +26,11 @@ Device-HostPC 接続時処理
 
 PC はどのシリアルポートにデバイスが接続されたのかは分からないため、繋がれている全てのシリアルポートに Ping を送信し、正しい応答が返ってきたポートをこのデバイスとして認識します。
 
-```mermaid
-sequenceDiagram
-Device ->> HostPC : [USB Connection]
-HostPC ->> Device : Ping ("MSGPing")
-Device ->> HostPC : Ping "MSGPing"
-HostPC ->> Device : Connected ("MSGCNCT")
-Note over Device : Red LED Lights up
-```
+![fig](https://github.com/ikorin24/i-got-arrive-at-the-lab/blob/image/img/fig1.png)
 
 ボタンが押された時
 
-```mermaid
-sequenceDiagram
-Device ->> HostPC : "I got arrived"
-HostPC ->> Slack : Post message
-Slack ->> HostPC : Responce
-HostPC ->> Device : "MSGOK"
-Note over Device : Greeen LEDs Blink
-```
+![fig](https://github.com/ikorin24/i-got-arrive-at-the-lab/blob/image/img/fig2.png)
 
 ## Slackへの投稿
 
