@@ -26,11 +26,11 @@ Device-HostPC 接続時処理
 
 PC はどのシリアルポートにデバイスが接続されたのかは分からないため、繋がれている全てのシリアルポートに Ping を送信し、正しい応答が返ってきたポートをこのデバイスとして認識します。
 
-![fig](https://github.com/ikorin24/i-got-arrive-at-the-lab/blob/image/img/fig1.png)
+![fig](https://github.com/ikorin24/i-got-arrived-at-the-lab/blob/image/img/fig1.png)
 
 ボタンが押された時
 
-![fig](https://github.com/ikorin24/i-got-arrive-at-the-lab/blob/image/img/fig2.png)
+![fig](https://github.com/ikorin24/i-got-arrived-at-the-lab/blob/image/img/fig2.png)
 
 ## Slackへの投稿
 
