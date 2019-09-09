@@ -2,7 +2,7 @@
 
 ## これは何
 
-研究室の来たことを知らせるために、デバイスのボタンを押すと slack の特定のチャンネルに「ラボinしました！」のメッセージが投稿されます。
+研究室に来たことを知らせるために、デバイスのボタンを押すと slack の特定のチャンネルに「ラボinしました！」のメッセージが投稿されます。
 
 ![fig](https://github.com/ikorin24/i-got-arrived-at-the-lab/blob/image/img/fig0.jpg)
 
